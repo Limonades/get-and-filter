@@ -37,8 +37,6 @@ function App() {
 
   const isSuccess = !loading && !error;
 
-  console.log(jokes);
-
   return (
     <div>
       {loading && 'Loading...'}
